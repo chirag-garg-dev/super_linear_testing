@@ -70,7 +70,6 @@ gem 'fileutils'
 gem 'erb'
 
 group :development, :test do
-  gem 'rubocop'
   gem 'bundler-audit', require: false
   gem 'license_finder', require: false
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
